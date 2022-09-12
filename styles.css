@@ -1,0 +1,28 @@
+
+
+.flex-container {
+    display: flex;  /*aca le digo que es flexible */
+   flex-wrap:wrap; /*wrap*/  /*envoltura*/ 
+    background-color: white;
+    
+    flex-direction: row;
+  }
+  
+  
+  .flex-container > div {
+    background-color: red;
+    width: 100px;
+    margin: 2px;
+    text-align: left;
+    line-height: 75px;
+    font-size: 20px;
+    color:yellow
+  }
+
+ #dos {
+    background-color: black;
+    color:white
+}
+
+  
+  
